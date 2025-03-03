@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nymos Message</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        #eye {
+            width: 300px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome...</h1>
+    <p>Only those who find it will understand...</p>
+    <img id="eye" src="eye.png" alt="Nymos">
+    
+    <script>
+        document.getElementById("eye").addEventListener("click", function() {
+            window.location.href = "secret-message.mp4";
+        });
+    </script>
+</body>
+</html>
